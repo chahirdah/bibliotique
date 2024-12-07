@@ -1,0 +1,138 @@
+body {
+    background: url(background.webp);
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {  
+    display: flex;
+    background-color: rgb(23, 113, 203);
+    color: rgb(24, 11, 11);
+    justify-content: space-around;
+    align-items: flex-end;
+}
+header img{
+    text-align: left;
+    width: 150px;
+    height: 50px;
+}
+nav {
+    text-align: center;
+    background-color: rgb(23, 113, 203);
+    padding : 1em 0; }
+nav a {
+    color: rgb(18, 6, 6);
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+.services {
+    margin-bottom: 2em;
+}
+
+.services h2 {
+    color: #4b6eaf;
+}
+
+.services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.services ul li {
+    margin-bottom: 0.5em;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    text-align: center;
+    color: #4b6eaf;
+}
+
+.group {
+    margin-bottom: 1em;
+}
+
+.group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.group input,
+.group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+section{ 
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 2em ;
+    
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b6eaf;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a5c9d;
+}
+footer {
+    display: flex;
+    text-align: center;
+    padding: 1em 0;
+    background-color:rgb(21, 95, 169);
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+footer p {
+    
+        font-size: 0.8em;
+        text-align: center;
+}
+
+
